@@ -1,0 +1,74 @@
+@keyframes animate {
+    from {
+        opacity: 0;
+        transform: scale(0);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+@keyframes hand-arrow {
+    from {
+       transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+.r-s-birds-container {
+    position: relative;
+    padding-top: 150px;
+    margin-top: 1350px;
+    margin-right: 700px;
+    width: 1250px;
+}
+
+.r-s-birds-context {
+    width: 1250px;
+}
+.r-s-birds-title-img {
+    position: absolute;
+    width: 322px;
+    height: 92px;
+    right: 0;
+    top: 0;
+}
+.r-s-birds-text {
+    text-align: end;
+    font-family: "Encode Sans Condensed", sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 90px;
+    line-height: 120px;
+    color: #ffffff;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+.r-birds-home-context {
+    width: 545px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 400px;
+}
+.r-birds-home-context .hand-arrow {
+    
+    animation: hand-arrow 1.5s ease-in infinite;
+  
+}
+.r-birds-home-context .r-b-home-text {
+    height: 225px;
+    font-family: "Encode Sans Condensed", sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 90px;
+    line-height: 120px;
+    color: #ffffff;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    margin-top: 52px;
+}

@@ -1,0 +1,22 @@
+.main-page-title {
+    position: relative;
+    width: 1300px;
+    height: 210px;
+    background-position: top right !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    font-family: "Cuprum", sans-serif;
+    font-style: normal;
+    font-size: 120px;
+    display: flex;
+    align-items: flex-end;
+    color: #ffffff;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+}
+.main-page-title img {
+    position: absolute;
+    width: 956px;
+    height: 244px;
+    right: 0;
+    top: 0;
+}

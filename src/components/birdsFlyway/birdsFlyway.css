@@ -1,0 +1,11 @@
+.birds-section {
+    background-position: -2000px -382px, -990px -372px !important ;
+    background-repeat: no-repeat !important;
+    background-size: 8554px 5238px, 9400px 5924px !important;
+    background-color: #002b61;
+    display: flex;
+    justify-content: space-between;
+    background-blend-mode: screen;
+}
+
+

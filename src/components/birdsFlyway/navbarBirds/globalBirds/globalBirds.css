@@ -1,0 +1,38 @@
+.circular-border {
+    width: 2434px;
+    height: 2434px;
+    border-radius: 50%;
+    padding: 8rem 7.25rem 6.125rem 6.875rem;
+    position: relative;
+}
+.global-birds,
+.shutterstock {
+    width: 2208px;
+    height: 2208px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+    background-blend-mode: lighten;
+    position: relative;
+}
+.shutterstock {
+    width: 2208px;
+    height: 2129.97px;
+    mix-blend-mode: lighten;
+}
+.arrow-road1 {
+    position: absolute;
+    top: 732px;
+    left: 1021px;
+    height: 500px;
+}
+.arrow-road2 {
+    position: absolute;
+    top: 576px;
+    left: 1035px;
+    height: 768px;
+}

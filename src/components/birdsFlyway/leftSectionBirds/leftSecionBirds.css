@@ -1,0 +1,45 @@
+.l-s-birds-container {
+    margin-top: 950px;
+    margin-left: 700px;
+    transition: 3s ease-in;
+}
+.l-s-birds-context {
+    width: 1300px;
+    margin-top: 100px;
+}
+.l-s-birds-title {
+    line-height: 230px;
+    margin-bottom: 80px;
+    display: block;
+    color: rgba(0, 255, 255, 0.7);
+    font-family: "Cuprum", sans-serif;
+    font-style: normal;
+    font-size: 210px;
+}
+.l-s-birds-text {
+    text-align: start;
+    font-family: "Encode Sans Condensed", sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 90px;
+    line-height: 120px;
+    color: #ffffff;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+}
+.l-s-birds-home-context {
+    width: 2238px;
+    margin-top: 100px;
+   }
+.l-s-birds-home-title {
+    line-height: 230px;
+    margin-bottom: 80px;
+    display: block;
+    color: rgba(0, 255, 255, 0.7);
+    font-family: "Cuprum", sans-serif;
+    font-style: normal;
+    font-size: 174px;
+}
+.l-s-birds-home-context .l-s-birds-text > span {
+    display: block;
+    margin-bottom: 120px;
+}

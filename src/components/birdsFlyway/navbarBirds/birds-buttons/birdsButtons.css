@@ -1,0 +1,100 @@
+.birds-buttons-container {
+    transition: 2s ease-in-out;
+    transform-origin: center;
+    width: 2434px;
+    height: 2434px;
+    position: relative;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+}
+
+.bird-button {
+    position: absolute;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform-origin: center;
+    width: 500px;
+    height: 500px;
+    filter: grayscale(100%);
+}
+.bird-click {
+    width: 350px;
+    height: 350px;
+    cursor: pointer;
+}
+
+.bird0 {
+    left: -115.26px;
+    bottom: 374.21px;
+    left: -39.26px;
+    bottom: 431.21px;
+}
+.bird1 {
+    left: 297px;
+    bottom: -206.12px;
+    left: 276px;
+    bottom: -31.12px;
+}
+.bird2 {
+    left: 699px;
+    bottom: -253.12px;
+    left: 967px;
+    bottom: -190.12px;
+}
+.bird3 {
+    right: 116.49px;
+    bottom: -104.77px;
+    right: 185.49px;
+    bottom: 6.23px;
+    transform: rotate(-15deg);
+}
+.bird4 {
+    right: -101px;
+    bottom: 757.88px;
+    right: -157px;
+    bottom: 656.88px;
+}
+.bird5 {
+    top: 466.12px;
+    right: -152px;
+    top: 524.12px;
+    right: -159px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.bird6 {
+    top: -98.68px;
+    right: 306.11px;
+    top: -29.68px;
+    right: 285.11px;
+}
+.bird7 {
+    top: -173.01px;
+    left: 934.25px;
+
+    top: -137.01px;
+    left: 960.25px;
+}
+.bird8 {
+    top: 0.12px;
+    left: 378px;
+}
+.bird9 {
+    top: 320.12px;
+    left: -32px;
+}
+.bird10 {
+    top: 837px;
+    left: -453px;
+
+    top: 930px;
+    left: -196px;
+}
